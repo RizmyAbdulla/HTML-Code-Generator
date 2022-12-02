@@ -35,7 +35,6 @@
   						<button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
     						Components
   						</button>
-  						<a href="#" class="btn btn-primary mt-auto p-2">Generate</a>
   						<ul class="dropdown-menu dropdown-menu-dark" style="overflow-y: scroll;max-height: 200px;">
     						<li><a class="dropdown-item" onclick="accordion()">Accordion</a></li>
 						    <li><a class="dropdown-item" onclick="Alerts()">Alerts</a></li>
@@ -63,15 +62,14 @@
 						    <li><a class="dropdown-item" onclick="Tooltips()">Tooltips</a></li>
 						</ul>
 					</div>
-				<div class="card-body">
-					<label class="text-start" for="size">Size</label>
-					<input type="range"id="size" value="50">
-					<label class="text-start" for="width">width</label>
-					<input type="range"id="width" value="50">
-					<label class="text-start" for="width">height</label>
-					<input type="range"id="height" value="50">
-				</div>
-					<button class="btn btn-primary btn-sm" id="color-picker-2">Open Picker</button>
+				<div class="card-body" id="components">
+					<label class="text-start d-none" for="size">Size</label>
+					<input class="d-none" type="range"id="size" value="50">
+					<label class="text-start d-none" for="width">width</label>
+					<input class="d-none" type="range"id="width" value="50">
+					<label class="text-start d-none" for="width">height</label>
+					<input class="d-none" type="range"id="height" value="50">
+    				</div>
 					
 
   			</div>
