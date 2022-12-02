@@ -1,0 +1,5 @@
+Accordion:  .accordion
+			.accordion-flush
+			data-bs-target="#panelsStayOpen-collapseThree"
+			aria-labelledby="panelsStayOpen-headingThree"
+
